@@ -8,6 +8,7 @@ public class Main {
         System.out.println("Jak masz na nazwisko?");
         String surname = scanner.nextLine();
             System.out.println("Ile masz lat?");
+            String age = scanner.nextLine();
         System.out.println("cześć, " + name + " " + surname + ", " + age + " lat" );
 
     }
